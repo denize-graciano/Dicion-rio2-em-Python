@@ -1,0 +1,83 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPtzqbDxzmot+8dtqdN3jP0",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/denize-graciano/Dicion-rio2-em-Python/blob/main/Exercicio\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def exercicio():\n",
+        "  palavra = input(\"Digite uma palavra: \")\n",
+        "  lista = list(palavra)\n",
+        "  segredo = \"\"\n",
+        "  for x in lista:\n",
+        "    if (x==\"z\"):segredo +=\"a\"\n",
+        "    elif (x==\"Z\"):segredo +=\"A\"\n",
+        "    else: segredo +=chr (ord(x)+1)\n",
+        "  print (segredo)\n",
+        ""
+      ],
+      "metadata": {
+        "id": "a5ATelXrCZl_"
+      },
+      "execution_count": 8,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 9,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "85s-7Ts7CRpf",
+        "outputId": "a2596d2f-84ce-4624-e7e7-bce15db75400"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite uma palavra: Denize\n",
+            "Efojaf\n"
+          ]
+        }
+      ],
+      "source": [
+        "exercicio()"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "BM7DEV6BD1me"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
